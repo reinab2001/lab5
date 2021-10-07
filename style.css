@@ -80,7 +80,7 @@ padding: 20px;
 }
 .intoduction_container p{
     white-space: nowrap;
-    font-size:0.5em;
+    font-size:2%;
 }
 .title{
     font-size: 1.2em;
@@ -135,4 +135,23 @@ padding: 20px;
 }
 h1.title{
     text-align: center;
+}
+.info{
+    margin-top: 5px;
+    padding-top: 10px;
+    background: #333;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.info h1{
+    font-size: 0.8em;
+    color: rgb(253, 209, 64);
+}
+.info p{
+    font-size: xx-small;
+    color: rgb(253, 209, 64);
+}
+@media screen and (max-width :900px) {
+    
 }
