@@ -80,7 +80,7 @@ padding: 20px;
 }
 .intoduction_container p{
     white-space: nowrap;
-    font-size:2%;
+    font-size:1%;
 }
 .title{
     font-size: 1.2em;
@@ -111,16 +111,28 @@ padding: 20px;
     background:black;
 }
 .grid-container >div>img{
-    height: 130px;
-    width: 80%;
+ 
+    padding-bottom: 10px;
+}
+.grid-container >div>img{
+   
+    padding-bottom: 10px;
+}
+.grid-container >div>img{
+    height: 200x;
+    width: 100%;
     padding-bottom: 10px;
 }
 .grid-container >div>img.img1{
     width: 50%;
 }
+.grid-container >div>img.img2{
+    height: 180px;
+}
 .grid-container >div>img.img5{
     width: 50%;
 }
+
 .grid-container{
     display: grid;
     justify-content: center;
@@ -138,20 +150,39 @@ h1.title{
 }
 .info{
     margin-top: 5px;
-    padding-top: 10px;
+    padding-top: 5px;
     background: #333;
     text-align: center;
     padding-bottom: 5px;
 }
 
 .info h1{
-    font-size: 0.8em;
+    font-size: 1.2em;
     color: rgb(253, 209, 64);
 }
 .info p{
-    font-size: xx-small;
+    font-size: x-small;
     color: rgb(253, 209, 64);
 }
-@media screen and (max-width :900px) {
+@media screen and (max-width :850px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .intoduction_container p{
+    white-space:normal;
+    }
+    .grid-container >div>img{
+        height: 100x;
+        width: 50%;
+        padding-bottom: 10px;
+    }
+    .grid-container >div>img.img2{
+        height: 100px;
+    }
     
 }
